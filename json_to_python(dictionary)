@@ -1,0 +1,14 @@
+# python json(string) to python(dictionary)
+
+import json
+
+person_json = '{"name": "sanchit", "age": 22, "height": 5.8 }'
+
+person_dict = json.loads(person_json)
+
+
+#to print complete json
+print(person_dict)
+
+#to print only name attribute of the json(string)
+print(person_dict['name'])
