@@ -1,0 +1,10 @@
+#convert dictionary to json
+
+import json
+
+person_dict = {"name": "mohan", "age": 22, "height": 5.8, "complextion": "fair", "phno.": 8998}
+
+person_json = json.dumps(person_dict)
+
+print(person_json)
+
